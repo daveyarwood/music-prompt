@@ -29,7 +29,7 @@
 (defn chord-numeral
   [scale-degree scale-quality]
   (nth (case scale-quality
-         :major ["I" "ii" "iii" "IV" "V" "VI" "vii°"]
+         :major ["I" "ii" "iii" "IV" "V" "vi" "vii°"]
          :minor ["i" "ii°" "III" "iv" "V" "vi" "VII"])
        (dec scale-degree)))
 
